@@ -1,0 +1,28 @@
+{
+    "name": "jayin/open-sdk-php",
+    "description": "sdk for open.zhutibang.cn",
+    "license": "Apache 2.0",
+    "authors": [
+        {
+            "name": "Jayin Ton",
+            "email": "tonjayin@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    },
+    "autoload": {
+    "psr-4": {
+        "OpenZhutibang\\": "src/"
+    },
+    "files": [
+        "src/Payment/helpers.php"
+    ]
+}
+}
