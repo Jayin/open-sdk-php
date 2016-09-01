@@ -9,5 +9,9 @@ SDK for open.zhutibang.cn
 $ composer require jayint/open-sdk-php 
 ```
 
+## Test
 
+```
+$ phpunit --bootstrap ./vendor/autoload.php ./test/FirstTest.php 
+```
 
