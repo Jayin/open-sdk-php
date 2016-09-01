@@ -18,11 +18,8 @@
         }
     },
     "autoload": {
-    "psr-4": {
-        "OpenZhutibang\\": "src/"
-    },
-    "files": [
-        "src/Payment/helpers.php"
-    ]
-}
+        "psr-4": {
+            "OpenZhutibang\\": "src/"
+        }
+    }
 }
